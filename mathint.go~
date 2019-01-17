@@ -1,0 +1,7 @@
+package mathint
+
+import "math"
+
+func Mod(i, j uint32) uint32 {
+	return uint32(math.Mod(float64(i), float64(j)))
+}
